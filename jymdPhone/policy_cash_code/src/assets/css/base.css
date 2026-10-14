@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* 约束当屏幕大于750px的时候，html字体大小就不变化了 */
+/* @media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+} */

@@ -1,0 +1,495 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrappernew{
+  width: 100%;
+  background-color: #F3F7FA;
+}
+
+/* 这里高度先写死 */
+.wrapper{
+  width: 100%;
+  height: 710px;
+  background-color: #F3F7FA;
+}
+
+.wrapper .wrapper_bg{
+  position: relative;
+}
+
+.wrapper_bg > .wrapper_bg_img{
+  display: block;
+  width: 100%;
+  height: 184px;
+}
+
+.wrapper_search{
+  position: absolute;
+  top: 29%;
+  left: 47%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.wrapper_search .wrapper_search_title{
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.wrapper_search_position{
+  position: relative;
+}
+
+.wrapper_search_position > .assess{
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  bottom: 3px;
+  width: 56px;
+  margin-left: 10px;
+  padding: 5px 8px;
+  box-sizing: border-box;
+  background-color: #4493FE;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/* 主体内容部分 */
+.wrapper .wrapper_content{
+  width: 100%;
+}
+
+.wrapper_content_main{
+  margin: 12px auto;
+  width: 1080px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding-top: 2px;
+}
+
+.wrapper_content_main .tab{
+  display: flex;
+  margin: 0;
+  padding-left: 35px;
+  height: 48px;
+  list-style-type: none;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.wrapper_content_main .tab > .tab_item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #B2B2B2;
+  user-select: none;
+}
+
+.tab_item .tab_item_img{
+  margin-right: 10px;
+}
+
+.tab_item .tab_item_count{
+  position: absolute;
+  top: 6px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: #FF5555;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.active{
+  color: #333!important;
+  border-bottom: 2.4px solid #3D90FF;
+}
+
+
+/* 表格样式 */
+.VirusTable {
+	table-layout: fixed;
+	width: 96%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	border-spacing: 2px 6px;
+	font-size: 14px;
+	color: #4d5054;
+	border-collapse: collapse;
+    margin-left: 30px;
+}
+
+.VirusTable tr {
+	height: 40px;
+	line-height: 40px;
+}
+
+.VirusTable td,
+.VirusTable th {
+	text-align: center;
+  width: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 1px solid  #B6B8B9;
+}
+
+.VirusTable thead {
+	font-size: 15px
+}
+
+.VirusTable thead tr {
+	color: #555;
+	text-align: center;
+	line-height: 1;
+	font-weight: 700;
+}
+
+.VirusTable thead tr th:first-child{
+  width: 20%;
+}
+ 
+.VirusTable tbody tr {
+	height: 40px;
+	line-height: 40px;
+	/* border-bottom: 1px solid #f5f5f5;	 */
+}
+
+.VirusTable tbody tr:nth-child(odd){
+  background: #F8FCFF;
+}
+
+.VirusTable tbody tr:last-child {
+	border-bottom: 1px solid #f5f5f5;	
+}
+
+.VirusTable tbody  tr td {
+	color: #4d5054;
+    border: 1px solid #B6B8B9;
+}
+
+.VirusTable tbody  tr td:first-child{
+	color: #B6B8B9;
+}
+
+.VirusTable tbody  tr td .checkbtn{
+  margin-left: 26px;
+  width: 110px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background:#3D90FF;
+  border-radius: 4px;
+}
+
+input{
+  padding: 2px 10px 2px 24px;
+  border: 0px;
+  background-color: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+input:focus{
+  outline: none;
+}
+
+input::-webkit-input-placeholder { 
+  /* WebKit browsers */ 
+  font-size: 15px;
+  color: #A9A9A9; 
+} 
+
+input:-moz-placeholder { 
+  /* Mozilla Firefox 4 to 18 */ 
+  font-size: 15px;
+  color: #A9A9A9; 
+} 
+
+input::-moz-placeholder { 
+  /* Mozilla Firefox 19+ */ 
+  font-size: 15px;
+  color: #A9A9A9; 
+} 
+
+input:-ms-input-placeholder { 
+  /* Internet Explorer 10+ */ 
+  font-size: 15px;
+  color:#A9A9A9; 
+}
+
+
+.bbt{
+  border: aliceblue;
+  border-radius: 20px;
+  background-color: #3f83e8;
+  width: 100px;
+  height: 35px;
+  color: white;
+  margin-top: 0px;
+
+}
+
+
+
+
+.suggest input{
+  height: 35px;
+  font-size: 16px;
+}
+.suggest select{
+  height: 35px!important;
+  font-size: 16px;
+}
+.suggest p{
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.suggest textarea {
+  font-size: 16px;
+
+}
+.suggest label {
+  font-size: 16px;
+
+}
+
+.policyfont{
+  font-size: 16px;
+}
+
+.div-inline{ display:inline}
+
+
+
+
+.img {
+  width: 61px;
+  height: 34px;
+
+}
+.box .shadow a{
+  font-size: 20px;
+}
+
+
+
+/*底部开始*/
+.footer_box {
+  border-top: 10px solid #355e92;
+  background: #dee0e2;
+}
+.friendlink_box {
+  width: 1068px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+}
+.friendlink_box > li {
+  margin-left: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #333333;
+  text-align: center;
+}
+.friendlink_box > li:first-child {
+  margin-left: 0px;
+}
+.friendlink {
+  width: 180px;
+  background: #F7F7F7 url(http://www.njjy.gov.cn/images/1802061003251071685.png) no-repeat;
+  background-position: 350px 9px;
+  cursor: pointer;
+}
+.fdd {
+  width: 130px;
+}
+.friendlink01_div01, .friendlink02_div01, .friendlink03_div01 {
+  width: 100%;
+  height: 5px;
+}
+.friendlink01_div02 {
+  width: 1190px;
+  background: #F7F7F7;
+  position: absolute;
+  left: 0;
+}
+.friendlink02_div02 {
+  width: 1190px;
+  background: #F7F7F7;
+  position: absolute;
+  left: 0px;
+}
+.friendlink03_div02 {
+  width: 1190px;
+  background: #F7F7F7;
+  position: absolute;
+  left: 0px;
+}
+.friendlink > div a {
+  display: block;
+  margin: 5px 20px;
+  float: left;
+  line-height: 28px;
+  float: left;
+  font-size: 13px;
+  width: 195px;
+}
+.footer_box_bottom {
+  height: 134px;
+  border-top: 1px solid #bfc1c3;
+
+}
+
+.footer-nav {
+  display: block;
+  font-size: 13px;
+  line-height: 13px;
+  height: 13px;
+  margin-bottom: 5px;
+}
+.footer-separate {
+  width: 1px;
+  height: 13px;
+  background: #4a4a4a;
+  margin: 0 5px;
+}
+.footer-l p {
+  font-size: 13px;
+  color: #333333;
+  font-size: 13px;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 6px;
+}
+.footer-p03 {
+  background: url(http://www.njjy.gov.cn/images/1802061003250989370.png) no-repeat left center;
+  padding-left: 25px;
+}
+.footer-m {
+  width: 110px;
+  margin-left: 340px;
+  margin-top: 13px;
+}
+.footer-m img {
+  display: block;
+  width: 110px;
+  height: 55px;
+}
+.footer-r {
+  width: 52px;
+  margin-left: 48px;
+  margin-top: 7px;
+}
+.footer-r img {
+  display: block;
+  width: 52px;
+  height: 64px;
+}
+#iconControl a{
+  background:url(http://www.njjy.gov.cn/images/1804211409538773676.png) no-repeat 0px center;
+}
+
+
+
+.fdd {
+  width: 130px;
+}
+
+.friendlink {
+  width: 180px;
+  background: #F7F7F7 url(http://www.njjy.gov.cn/images/1802061003251071685.png) no-repeat;
+  background-position: 350px 9px;
+  cursor: pointer;
+}
+.fl {
+  float: left;
+  margin: 0;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+.footer_box_bottom > ul {
+  width: 1068px;
+  margin: 0 auto;
+  padding: 14px 70px 0 0;
+}
+
+.cf {
+  zoom: 1;
+}
+
+
+.logo03 {
+
+  width: 479px;
+  height: 71px;
+  top: 10px;
+  margin-left: 120px;
+  z-index: 8888;
+  position: absolute;
+}
+
+
+.logo01 {
+
+  width: 479px;
+  height: 71px;
+  top: 40px;
+  margin-left: 35%;
+  z-index: 8888;
+  position: absolute;
+}
+
+
+.labtitle{
+  border: 0;
+  padding:0;
+  margin-right: 20px;
+}
+
+
+.webbtn{
+  height: 29px;
+  line-height:29px;
+  text-align:center;
+  background-color: #3D90FF;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 5px;
+  border: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+
+	<diskStore path="${java.io.tmpdir}/${system.project_name}/cache" />
+	<cache name="user" maxElementsInMemory="100" eternal="true"
+		overflowToDisk="true" /> 
+	<cache name="role" maxElementsInMemory="100" eternal="true"
+		overflowToDisk="true" />
+	<cache name="permission" maxElementsInMemory="100" eternal="true"
+		overflowToDisk="true" />
+	<cache name="generalcode" maxElementsInMemory="10000" eternal="true"
+		overflowToDisk="true" /> 
+	<cache name="generalcodename" maxElementsInMemory="10000" eternal="true"
+		overflowToDisk="true" />
+	<cache name="uploadfile" maxElementsInMemory="100" eternal="true"
+		overflowToDisk="true" />	
+	<cache name="menu" maxElementsInMemory="1000" eternal="true"
+		overflowToDisk="true" />
+ 
+</ehcache>
+ 
+		
